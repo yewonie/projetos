@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>diary 2023</title>
+    <style>
+        main {
+            margin: 100px auto;
+            width: 350px;
+            height: 480px;
+            background-color: rgb(255, 255, 255);
+            border-radius: 20px;
+            box-shadow: 3px 5px 4px 1px gray;
+        
+        }
+        div#mes {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 10px; 
+        }
+        div#cabeçalho {
+            height: 130px;
+            width: 350px;
+            background-image: url(imagens/diary2023.jpg);
+            background-repeat: no-repeat;
+            border-radius: 20px 20px 0px 0px;
+            box-shadow: 0px 3px 4px 1px gray;
+        }
+        a {
+            border: 2px solid rgb(114, 5, 5);
+            border-radius: 10px;
+            height: 30px;
+            font-size: 25px;
+            padding: 10px;
+            color: rgb(114, 5, 5);
+            margin: 10px;
+            text-decoration: none;
+            font-weight: bold;
+
+        }
+        a:hover {
+            color: rgb(0, 0, 0);
+            background-color: rgb(226, 188, 188);
+            font-size: 27px;
+        }
+
+        footer {
+            background-color: rgb(114, 5, 5);
+            color: white;
+            border-radius: 0px 0px 20px 20px;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <main>
+        <div id="cabeçalho">
+        </div>
+        
+        <div id="mes">
+            <a href="march.html" class="menu">march</a>
+            <a href="#" class="menu">april</a>
+            <a href="#" class="menu">may</a>
+            <a href="#" class="menu">june</a>
+            <a href="#" class="menu">july</a>
+            <a href="#" class="menu">august</a>
+            <a href="#" class="menu">september</a>
+            <a href="#" class="menu">october</a>
+            <a href="#" class="menu">november</a>
+            <a href="#" class="menu">december</a>
+        </div>
+
+        <footer>
+            <p>by: yewon</p>
+        </footer>
+    </main>
+</body>
+</html>
